@@ -1,0 +1,59 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8BB2217D-0F2D-451B-81CC-9EB15C22A1F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8BB2217D-0F2D-451B-81CC-9EB15C22A1F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApi.Domain", "src\SampleApi.Domain\SampleApi.Domain.csproj", "{8BB2217D-0F2D-451B-81CC-9EB15C22A1F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApi.Application", "src\SampleApi.Application\SampleApi.Application.csproj", "{8BB2217D-0F2D-451B-81CC-9EB15C22A1F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApi.Infrastructure", "src\SampleApi.Infrastructure\SampleApi.Infrastructure.csproj", "{8BB2217D-0F2D-451B-81CC-9EB15C22A1F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApi.WebApi", "src\SampleApi.WebApi\SampleApi.WebApi.csproj", "{8BB2217D-0F2D-451B-81CC-9EB15C22A1F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApi.UnitTests", "tests\SampleApi.UnitTests\SampleApi.UnitTests.csproj", "{8BB2217D-0F2D-451B-81CC-9EB15C22A1F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApi.IntegrationTests", "tests\SampleApi.IntegrationTests\SampleApi.IntegrationTests.csproj", "{8BB2217D-0F2D-451B-81CC-9EB15C22A1F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F1} = {8BB2217D-0F2D-451B-81CC-9EB15C22A1F9}
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F2} = {8BB2217D-0F2D-451B-81CC-9EB15C22A1F9}
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F3} = {8BB2217D-0F2D-451B-81CC-9EB15C22A1F9}
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F4} = {8BB2217D-0F2D-451B-81CC-9EB15C22A1F9}
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F5} = {8BB2217D-0F2D-451B-81CC-9EB15C22A1F0}
+		{8BB2217D-0F2D-451B-81CC-9EB15C22A1F6} = {8BB2217D-0F2D-451B-81CC-9EB15C22A1F0}
+	EndGlobalSection
+EndGlobal
